@@ -1,4 +1,4 @@
-name: ruby-test-book-api
+name: ruby-test-notepad
 
 on:
   push:
