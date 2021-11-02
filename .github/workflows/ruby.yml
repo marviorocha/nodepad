@@ -12,18 +12,18 @@ jobs:
     env:
       RAILS_ENV: test
       DATABASE_USER: postgres
-      DATABASE_PASSWORD: 
+      DATABASE_PASSWORD: postgres
       DATABASE_HOST: localhost
-      DATABASE_URL: postgresql://postgres:@localhost/notepad_test
+      DATABASE_URL: postgresql://postgres:postgres@localhost/notepad_test
 
     services:
       db:
         image: postgres
         ports: ["5432:5432"]
         env:
-          POSTGRES_DB: book_api_marvio_test
+          POSTGRES_DB: notepad_test
           POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: 
+          POSTGRES_PASSWORD: postgres
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
@@ -36,7 +36,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "2.7.2"
+          ruby-version: "3.0.0"
 
       - name: Run Install
         run: |
