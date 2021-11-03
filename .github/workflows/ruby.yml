@@ -45,7 +45,7 @@ jobs:
           gem install rake -v 13.0.1
           gem install bundler -v "~>2.0"
           bundle install
-          rails RAILS_ENV=production assets:precompile
+          rails assets:precompile
       - name: Run Tests (rspec)
         run: |
           bundle exec rails db:create db:migrate
