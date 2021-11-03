@@ -20,7 +20,8 @@ engines:
   rubocop:
     enabled: true
     channel: rubocop-0-74
-    
+  env:
+    CC_TEST_REPORTER_ID: 4f51dc43c1ce996a33fafae695c5d1895f86cc8fb9eeac7833235076dcb635fb 
 ratings:
   paths:
     - Gemfile.lock

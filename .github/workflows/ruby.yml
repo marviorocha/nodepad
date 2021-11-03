@@ -50,3 +50,4 @@ jobs:
         run: |
           bundle exec rails db:create db:migrate
           bundle exec rspec
+     
