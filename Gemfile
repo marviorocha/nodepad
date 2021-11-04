@@ -29,3 +29,7 @@ end
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
+
+gem "devise", "~> 4.8"
+
+gem "letter_opener", "~> 1.7", :group => :development
