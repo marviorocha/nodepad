@@ -2,7 +2,6 @@
 
 RSpec.configure do |config|
   require 'simplecov'
-  require 'capybara/rails'
   SimpleCov.start
 
   config.expect_with :rspec do |expectations|
