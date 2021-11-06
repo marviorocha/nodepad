@@ -27,6 +27,21 @@ Rails.application.configure do
   # Compress CSS using a preprocessor.
   # config.assets.css_compressor = :sass
 
+  # config send email
+
+  config.action_mailer.default_url_options = { host: 'notepad-marvio.herokuapp.com' }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.smtp_settings = {
+    user_name: ENV['SENDGRID_USERNAME'],
+    password: ENV['SENDGRID_PASSWORD'],,
+    domain: 'notepad-marvio.herokuapp.com',
+    address: 'smtp.sendgrid.net',
+    port: 587,
+    authentication: :plain,
+    enable_starttls_auto: true
+  }
+
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
 
