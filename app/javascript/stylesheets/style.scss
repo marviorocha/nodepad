@@ -1,1 +1,81 @@
-@import '~bootstrap/scss/bootstrap'
+@import "~bootstrap/scss/bootstrap";
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700);
+ 
+html{ 
+  height:100%; 
+  overflow-x: hidden;
+ 
+}
+body{ min-height:100%; padding:0; margin:0; position:relative; }
+
+body::after{ content:''; display:block; height:100px; }
+
+body{
+    background-color:#c7d9ff;
+    font-size:14px;
+    font-family:Rubik,sans-serif;
+    min-height: 100vh;
+}
+ 
+.logo {
+	width: 190px;
+
+	float: left;
+	color: #91aec4;
+}
+
+.navigation a {
+  color:#f0f0f0;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.5s;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navigation a:hover {
+  color: #a9c2f7;
+   
+}
+
+.social a {
+  color:#f0f0f0;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.5s;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.social a:hover {
+  color: #a9c2f7;
+   
+}
+
+.form-control {
+  
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #f0f0f0;
+}
+
+ .field_with_errors {
+     br {
+      display: none;
+	  
+    }
+
+    input, select {
+      border: 1px solid rgb(173, 25, 25) !important;
+    }
+  }
+
+.footer {
+    position:absolute; 
+  bottom:0; 
+  width:100%; 
+  height:100px; 
+  }
