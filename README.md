@@ -8,7 +8,7 @@
   <img src="app/assets/images/logo.jpg" width="250" title="Logo Notepad">
    
 </p>
-Notepad is a <b>app of test</b> build with Ruby On Rails 6+ and 
+Notepad is a <b>app test full stack for a good skills code</b> created by <b>Marvio Rocha</b> with Ruby On Rails 6+ and 
 <b>Bootstrap 4</b> using the classic TDD
 
 ## Tecnology and gem included in project
