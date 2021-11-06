@@ -4,7 +4,12 @@
 [![Maintainability][maintainability-shield]][maintainability-url]
 # Notepad app ruby on rails
 
-This is a <b>app test</b> build with Ruby On Rails 6+ and Bootstrap 4 with a classic TDD 
+<p align="center">
+  <img src="app/assets/images/logo.jpg" width="250" title="Logo Notepad">
+   
+</p>
+Notepad is a <b>app of test</b> build with Ruby On Rails 6+ and 
+<b>Bootstrap 4</b> using the classic TDD
 
 ## Tecnology and gem included in project
 
@@ -13,9 +18,14 @@ This is a <b>app test</b> build with Ruby On Rails 6+ and Bootstrap 4 with a cla
 - [Rubocop](https://github.com/rubocop/rubocop)
 - [Simplecov](https://github.com/rspec/rspec-rails)
 - [Rspec Rails](https://github.com/rspec/rspec-rails)
+- [Devise](https://github.com/heartcombo/devise)
+- [Letter Opener](https://github.com/ryanb/letter_opener)
+- [Capybara](https://github.com/teamcapybara/capybara)
+- [Pry](https://github.com/pry/pry)
 ## Frontend and libs
 - [Bootstrap 4](https://getbootstrap.com/docs/4.6/)
 - [Stimulus](https://stimulus.hotwired.dev)
+- [Fontawesome 5](https://fontawesome.com/start)
 
 <!-- MARKDOWN IMAGE AND LINK -->
 
@@ -25,3 +35,4 @@ This is a <b>app test</b> build with Ruby On Rails 6+ and Bootstrap 4 with a cla
 [coverage-url]: https://codeclimate.com/github/marviorocha/notepad/test_coverage
 [maintainability-shield]: https://img.shields.io/codeclimate/maintainability/marviorocha/notepad?style=for-the-badge
 [maintainability-url]: https://codeclimate.com/github/marviorocha/notepad/maintainability
+[logo-url]: /assets/images/logo.svg
