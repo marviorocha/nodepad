@@ -2,6 +2,6 @@
 
 class MainController < ApplicationController
   def index
-    @title = 'Home Page'
+    @title = 'Welcome | Notepad'
   end
 end
