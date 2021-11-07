@@ -32,11 +32,14 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: 'notepad-marvio.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
+
+  config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    address: ENV['GMAIL_SMTP'],
+    address: ENV['SMTP_ADDRESS'],
     port: 587,
-    user_name: 'marviorocha@gmail.com',
-    password: ENV['GMAIL_PASS'],
+    domain: 'notepad-marvio.herokuapp.com',
+    user_name: ENV['SENDGRID_USERNAME'],
+    password: ENV['SENDGRID_PASSWORD'],
     authentication: 'plain',
     enable_starttls_auto: true
   }
