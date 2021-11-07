@@ -48,7 +48,7 @@
           null,
           null,
           null,
-          4,
+          3,
           null,
           null,
           null,
@@ -715,19 +715,6 @@
           null
         ]
       },
-      "/home/marviorocha/www/notepad/spec/support/controller_macros.rb": {
-        "lines": [
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null
-        ]
-      },
       "/home/marviorocha/www/notepad/spec/support/devise.rb": {
         "lines": [
           1,
@@ -901,6 +888,6 @@
         ]
       }
     },
-    "timestamp": 1636233257
+    "timestamp": 1636251422
   }
 }
