@@ -1,0 +1,17 @@
+<footer class="bg-dark footer p-5 mt-4">
+  <div class="container text-white">
+    <div class="d-flex justify-content-between">
+      <div class="">
+        © <%= DateTime.now.strftime('%Y') %> Todos os direitos reservados - Notepad by
+      </div>
+      <div class="social">
+        <%= link_to "https://linkedin.com/in/marviorocha", target: '_blank' do %>
+          <i class="fab fa-linkedin fa-lg"></i> Linkedin
+        <% end %>
+        <%= link_to "https://github.com/marviorocha/notepad", target: '_blank' do %>
+          <i class="fab fa-github fa-lg"></i> Github
+        <% end %>
+      </div>
+    </div>
+  </div>
+</footer>
