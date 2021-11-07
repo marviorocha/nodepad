@@ -35,3 +35,5 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'capybara', '~> 3.36'
 
 gem "sendgrid-ruby", "~> 6.6"
+
+gem "redis", "~> 4.5"
