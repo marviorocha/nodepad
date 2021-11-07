@@ -29,13 +29,13 @@ Rails.application.configure do
 
   # config send email
 
-  config.action_mailer.default_url_options = { host: 'notepad-marviorocha.herokuapp.com' }
+  config.action_mailer.default_url_options = { host: 'notepad-marvio.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.smtp_settings = {
     user_name: ENV['SMTP_USERNAME'],
     password: ENV['SMTP_PASSWORD'],
-    domain: 'notepad-marviorocha.herokuapp.com',
+    domain: 'notepad-marvio.herokuapp.com',
     address: ENV['SMTP_ADDRESS'],
     port: 587,
     authentication: :plain,
