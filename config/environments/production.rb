@@ -29,18 +29,16 @@ Rails.application.configure do
 
   # config send email
 
-  config.action_mailer.default_url_options = { host: 'notepad-marvio.herokuapp.com' }
+  config.action_mailer.default_url_options = { host: 'notepad-marviorocha.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
-
-  config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    address: ENV['SMTP_ADDRESS'],
-    port: 587,
-    domain: 'notepad-marvio.herokuapp.com',
     user_name: ENV['SENDGRID_USERNAME'],
     password: ENV['SENDGRID_PASSWORD'],
-    authentication: 'plain',
+    domain: 'notepad-marviorocha.herokuapp.com',
+    address: ENV['SMTP_ADDRESS'],
+    port: 587,
+    authentication: :plain,
     enable_starttls_auto: true
   }
 
