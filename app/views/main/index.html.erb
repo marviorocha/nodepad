@@ -29,7 +29,7 @@
         <tbody>
           <% @notes.each do |note| %>
             <tr>
-              <th scope="row list-group-item"><%= note.id %></th>
+              <th scope="row list-group-item"><%= check_box_tag note, nil, nil, data: {reflex:} %></th>
               <td >
                 <%= note.title %>
               </td>
