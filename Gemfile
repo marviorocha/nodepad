@@ -37,3 +37,5 @@ gem 'capybara', '~> 3.36'
 gem "sendgrid-ruby", "~> 6.6"
 
 gem "redis", "~> 4.5"
+
+gem "faker", "~> 2.19"

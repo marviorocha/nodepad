@@ -1,16 +1,57 @@
 <% content_for :title do %>
   <%= @title %> | Notepad
 <% end %>
-<div class='container mt-4'>
-  <h1> Welcome <%= current_user.first_name %>!</h1>
-  <div class="card" style="width: 100%">
+<div class='container my-4'>
+  <div class="d-flex justify-content-between align-items-center">
+    <h1> Welcome <%= current_user.first_name %>!</h1>
+    <%= link_to new_note_url, class: 'btn btn-primary' do %>
+      <i class="fas fa-pen-alt"></i> New note
+    <% end %>
+  </div>
+  <div class="search">
+    <%= render 'notes/search' %>
+  </div>
+  <div class="card " style="width: 100%">
     <h5 class="card-header">
-      All Notes
+      All Notes <span class="badge badge-primary"><%= @notes.count %></span>
     </h5>
     <ul class="list-group list-group-flush">
-      <li class="list-group-item">An item</li>
-      <li class="list-group-item">A second item</li>
-      <li class="list-group-item">A third item</li>
+      <table class="table">
+        <thead class="">
+          <tr>
+            <th scope="col">#</th>
+            <th span="1" style="width: 35%;" scope="col">Title</th>
+            <th scope="col">Date/Time</th>
+            <th scope="col">Priority</th>
+            <th class="text-center" scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @notes.each do |note| %>
+            <tr>
+              <th scope="row list-group-item"><%= note.id %></th>
+              <td >
+                <%= note.title %>
+              </td>
+              <td>
+                <%= note.date.strftime("%b, %d, %Y") %>
+                <%= note.updated_at.strftime("at %I:%M %p") %>
+              </td>
+              <td>
+                <%= note_priority(note.priority) %>
+              </td>
+              <td class="text-center">
+                <%= link_to edit_note_path(note), class: 'btn btn-info btn-sm' do %>
+                  <i class="fas fa-pen-fancy"></i> Edit
+                <% end %>
+                <%= link_to note_path(note), method: :delete, data: {confirm: 'You are sure?'}, class: 'btn btn-danger btn-sm' do %>
+                  <i class="fas fa-trash"></i> Delete
+                <% end %>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
     </ul>
   </div>
 </div>
