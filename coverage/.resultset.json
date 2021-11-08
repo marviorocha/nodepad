@@ -664,7 +664,10 @@
         ]
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> developer
       "/home/marviorocha/www/notepad/spec/factories/notes.rb": {
         "lines": [
           1,
@@ -678,6 +681,9 @@
           null
         ]
       },
+<<<<<<< HEAD
+>>>>>>> developer
+=======
 >>>>>>> developer
       "/home/marviorocha/www/notepad/spec/factories/users.rb": {
         "lines": [
@@ -699,9 +705,14 @@
           1,
           1,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
           null,
           1,
+          1,
+>>>>>>> developer
+=======
+          null,
           1,
 >>>>>>> developer
           null
@@ -716,6 +727,10 @@
           null,
           null,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+          1,
+>>>>>>> developer
 =======
           1,
 >>>>>>> developer
@@ -742,7 +757,10 @@
         ]
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> developer
       "/home/marviorocha/www/notepad/app/helpers/notes_helper.rb": {
         "lines": [
           1,
@@ -759,6 +777,9 @@
           null
         ]
       },
+<<<<<<< HEAD
+>>>>>>> developer
+=======
 >>>>>>> developer
       "/home/marviorocha/www/notepad/spec/support/devise.rb": {
         "lines": [
@@ -790,12 +811,16 @@
           1,
           null,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> developer
           1,
           1,
           1,
           1,
           null,
           null,
+<<<<<<< HEAD
 =======
           0,
           0,
@@ -803,6 +828,8 @@
           0,
           null,
           null,
+=======
+>>>>>>> developer
           1,
           1,
           null,
@@ -831,11 +858,19 @@
           null,
           1,
           null,
+<<<<<<< HEAD
           0,
           null,
           0,
           0,
           0,
+=======
+          1,
+          null,
+          1,
+          1,
+          1,
+>>>>>>> developer
           null,
           null
         ]
@@ -845,18 +880,27 @@
           1,
           null,
           1,
+<<<<<<< HEAD
+>>>>>>> developer
+=======
 >>>>>>> developer
           1,
           1,
           null,
           1,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> developer
           1,
           1,
           1,
           1,
           1,
+<<<<<<< HEAD
+>>>>>>> developer
+=======
 >>>>>>> developer
           null,
           1,
@@ -864,10 +908,13 @@
           1,
           null,
 <<<<<<< HEAD
+<<<<<<< HEAD
           1,
           1,
           null,
 =======
+=======
+>>>>>>> developer
           null,
           1,
           1,
@@ -877,14 +924,20 @@
           1,
           1,
           1,
+<<<<<<< HEAD
+>>>>>>> developer
+=======
 >>>>>>> developer
           null,
           null
         ]
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
       "/home/marviorocha/www/notepad/spec/features/user_signs_out_spec.rb": {
 =======
+=======
+>>>>>>> developer
       "/home/marviorocha/www/notepad/spec/helpers/main_helper_spec.rb": {
         "lines": [
           null,
@@ -916,6 +969,9 @@
         ]
       },
       "/home/marviorocha/www/notepad/spec/models/note_spec.rb": {
+<<<<<<< HEAD
+>>>>>>> developer
+=======
 >>>>>>> developer
         "lines": [
           1,
@@ -923,11 +979,14 @@
           1,
           1,
 <<<<<<< HEAD
+<<<<<<< HEAD
           1,
           null,
           1,
           null,
 =======
+=======
+>>>>>>> developer
           null
         ]
       },
@@ -939,9 +998,14 @@
           1,
           null,
           1,
+<<<<<<< HEAD
           0,
           0,
           null,
+=======
+          2,
+          2,
+>>>>>>> developer
           null,
           0,
           null,
@@ -951,16 +1015,22 @@
       },
       "/home/marviorocha/www/notepad/spec/models/user_spec.rb": {
         "lines": [
+<<<<<<< HEAD
+>>>>>>> developer
+=======
 >>>>>>> developer
           1,
           null,
           1,
           null,
 <<<<<<< HEAD
+<<<<<<< HEAD
           1,
           1,
           1,
 =======
+=======
+>>>>>>> developer
           null,
           null,
           null,
@@ -981,6 +1051,7 @@
           1,
           null,
           null,
+<<<<<<< HEAD
           1,
           1,
           0,
@@ -1006,6 +1077,11 @@
           1,
           1,
 =======
+=======
+          null
+        ]
+      },
+>>>>>>> developer
       "/home/marviorocha/www/notepad/spec/requests/notes_spec.rb": {
         "lines": [
           1,
@@ -1027,6 +1103,7 @@
           null,
           null,
           1,
+<<<<<<< HEAD
           9,
           null,
           null,
@@ -1040,6 +1117,15 @@
           0,
           0,
           null,
+=======
+          null,
+          1,
+          8,
+          null,
+          null,
+          1,
+          2,
+>>>>>>> developer
           null,
           null,
           1,
@@ -1049,11 +1135,15 @@
           0,
           null,
           null,
+<<<<<<< HEAD
+>>>>>>> developer
+=======
 >>>>>>> developer
           null,
           1,
           1,
           1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
           1,
@@ -1067,22 +1157,31 @@
           0,
           null,
 >>>>>>> developer
+=======
+          1,
+          1,
+          null,
+>>>>>>> developer
           null,
           null,
           1,
           1,
+<<<<<<< HEAD
 <<<<<<< HEAD
           null,
           1,
 =======
           1,
           1,
+=======
+>>>>>>> developer
           0,
           null,
           null,
           null,
           1,
           1,
+<<<<<<< HEAD
           0,
           null,
           null,
@@ -1094,6 +1193,10 @@
 <<<<<<< HEAD
 =======
           0,
+=======
+          1,
+          1,
+>>>>>>> developer
           null,
           null,
           null,
@@ -1147,6 +1250,7 @@
           0,
           0,
           null,
+<<<<<<< HEAD
 >>>>>>> developer
           null,
           null
@@ -1160,16 +1264,21 @@
           1,
           null,
           1,
+=======
+>>>>>>> developer
           null,
           null
         ]
       },
+<<<<<<< HEAD
       "/home/marviorocha/www/notepad/spec/models/user_spec.rb": {
         "lines": [
           1,
           null,
           1,
 =======
+=======
+>>>>>>> developer
       "/home/marviorocha/www/notepad/spec/routing/notes_routing_spec.rb": {
         "lines": [
           1,
@@ -1217,15 +1326,18 @@
           1,
           1,
           1,
+<<<<<<< HEAD
+          1,
+          0,
+          null,
+=======
+>>>>>>> developer
+          null,
           1,
           0,
           null,
           null,
           1,
-          0,
-          null,
-          null,
-          1,
           null,
           1,
           0,
@@ -1246,6 +1358,9 @@
           null,
           null,
           0,
+<<<<<<< HEAD
+>>>>>>> developer
+=======
 >>>>>>> developer
           null,
           null,
@@ -1253,11 +1368,14 @@
           null,
           null,
 <<<<<<< HEAD
+<<<<<<< HEAD
           null
         ]
       },
       "/home/marviorocha/www/notepad/spec/requests/main_spec.rb": {
 =======
+=======
+>>>>>>> developer
           1,
           0,
           0,
@@ -1279,6 +1397,7 @@
         ]
       },
       "/home/marviorocha/www/notepad/app/controllers/application_controller.rb": {
+<<<<<<< HEAD
 >>>>>>> developer
         "lines": [
           null,
@@ -1316,6 +1435,8 @@
         ]
       },
       "/home/marviorocha/www/notepad/app/controllers/application_controller.rb": {
+=======
+>>>>>>> developer
         "lines": [
           null,
           null,
@@ -1328,6 +1449,7 @@
           1,
           15,
           15,
+<<<<<<< HEAD
 =======
           null,
           null,
@@ -1347,15 +1469,22 @@
           null,
           0,
           null,
+=======
+>>>>>>> developer
           null,
           null
         ]
       },
+<<<<<<< HEAD
       "/home/marviorocha/www/notepad/spec/views/notes/index.html.erb_spec.rb": {
+=======
+      "/home/marviorocha/www/notepad/spec/views/notes/edit.html.erb_spec.rb": {
+>>>>>>> developer
         "lines": [
           1,
           null,
           1,
+<<<<<<< HEAD
           1,
           1,
           null,
@@ -1380,6 +1509,8 @@
           0,
           0,
           null,
+=======
+>>>>>>> developer
           null
         ]
       },
@@ -1388,6 +1519,7 @@
           1,
           null,
           1,
+<<<<<<< HEAD
           1,
           1,
           null,
@@ -1435,6 +1567,8 @@
           0,
           0,
 >>>>>>> developer
+=======
+>>>>>>> developer
           null,
           null
         ]
@@ -1447,20 +1581,30 @@
           1,
           2,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
           2,
           null,
           null,
 >>>>>>> developer
           null,
+=======
+          2,
+          null,
+          null,
+>>>>>>> developer
           null
         ]
       }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "timestamp": 1636251422
 =======
     "timestamp": 1636322829
+>>>>>>> developer
+=======
+    "timestamp": 1636337057
 >>>>>>> developer
   }
 }

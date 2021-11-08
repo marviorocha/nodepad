@@ -5,7 +5,7 @@ class Note < ApplicationRecord
 
   def self.search(search, user)
     if user.blank?
-      user.all.order(:cresc)
+      user.all
     else
       user.where('title LIKE :search OR body LIKE :search', search: "%#{search}%")
     end
