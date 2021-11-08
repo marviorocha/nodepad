@@ -29,13 +29,13 @@ Rails.application.configure do
 
   # config send email
 
-  config.action_mailer.default_url_options = { host: 'notepad-marviorocha.herokuapp.com' }
+  config.action_mailer.default_url_options = { host: 'notepad-marvio.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.smtp_settings = {
     user_name: ENV['SMTP_USERNAME'],
     password: ENV['SMTP_PASSWORD'],
-    domain: 'notepad-marviorocha.herokuapp.com',
+    domain: 'notepad-marvio.herokuapp.com',
     address: ENV['SMTP_ADDRESS'],
     port: 587,
     authentication: :plain,
@@ -72,9 +72,9 @@ Rails.application.configure do
 
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
-
+  config.cache_store = :redis_cache_store, { url: ENV['REDIS_URL'] }
   # Use a real queuing backend for Active Job (and separate queues per environment).
-  # config.active_job.queue_adapter     = :resque
+  # config.active_job.que/ue_adapter     = :resque
   # config.active_job.queue_name_prefix = "notepad_production"
 
   config.action_mailer.perform_caching = false

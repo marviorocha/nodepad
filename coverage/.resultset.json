@@ -663,6 +663,22 @@
           null
         ]
       },
+<<<<<<< HEAD
+=======
+      "/home/marviorocha/www/notepad/spec/factories/notes.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+>>>>>>> developer
       "/home/marviorocha/www/notepad/spec/factories/users.rb": {
         "lines": [
           1,
@@ -682,6 +698,12 @@
           1,
           1,
           1,
+<<<<<<< HEAD
+=======
+          null,
+          1,
+          1,
+>>>>>>> developer
           null
         ]
       },
@@ -693,6 +715,10 @@
           1,
           null,
           null,
+<<<<<<< HEAD
+=======
+          1,
+>>>>>>> developer
           null
         ]
       },
@@ -715,6 +741,25 @@
           null
         ]
       },
+<<<<<<< HEAD
+=======
+      "/home/marviorocha/www/notepad/app/helpers/notes_helper.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+>>>>>>> developer
       "/home/marviorocha/www/notepad/spec/support/devise.rb": {
         "lines": [
           1,
@@ -744,10 +789,18 @@
           1,
           1,
           null,
+<<<<<<< HEAD
           1,
           1,
           1,
           1,
+          null,
+          null,
+=======
+          0,
+          0,
+          0,
+          0,
           null,
           null,
           1,
@@ -778,11 +831,11 @@
           null,
           1,
           null,
-          1,
+          0,
           null,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
           null
         ]
@@ -792,33 +845,46 @@
           1,
           null,
           1,
+>>>>>>> developer
           1,
+          1,
+          null,
+          1,
+<<<<<<< HEAD
+=======
+          1,
+          1,
+          1,
+          1,
+          1,
+>>>>>>> developer
+          null,
+          1,
+          1,
+          1,
+          null,
+<<<<<<< HEAD
+          1,
+          1,
+          null,
+=======
+          null,
+          1,
+          1,
+          null,
           1,
           null,
           1,
           1,
           1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
+>>>>>>> developer
           null,
           null
         ]
       },
+<<<<<<< HEAD
+      "/home/marviorocha/www/notepad/spec/features/user_signs_out_spec.rb": {
+=======
       "/home/marviorocha/www/notepad/spec/helpers/main_helper_spec.rb": {
         "lines": [
           null,
@@ -830,12 +896,71 @@
           null
         ]
       },
-      "/home/marviorocha/www/notepad/spec/models/user_spec.rb": {
+      "/home/marviorocha/www/notepad/spec/helpers/notes_helper_spec.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/marviorocha/www/notepad/spec/models/note_spec.rb": {
+>>>>>>> developer
         "lines": [
           1,
           null,
           1,
+          1,
+<<<<<<< HEAD
+          1,
           null,
+          1,
+          null,
+=======
+          null
+        ]
+      },
+      "/home/marviorocha/www/notepad/app/models/note.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/marviorocha/www/notepad/spec/models/user_spec.rb": {
+        "lines": [
+>>>>>>> developer
+          1,
+          null,
+          1,
+          null,
+<<<<<<< HEAD
+          1,
+          1,
+          1,
+=======
           null,
           null,
           null,
@@ -856,6 +981,337 @@
           1,
           null,
           null,
+          1,
+          1,
+          0,
+          null,
+>>>>>>> developer
+          null,
+          null
+        ]
+      },
+<<<<<<< HEAD
+      "/home/marviorocha/www/notepad/spec/features/user_signs_up_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+=======
+      "/home/marviorocha/www/notepad/spec/requests/notes_spec.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          9,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          0,
+          0,
+          null,
+          null,
+>>>>>>> developer
+          null,
+          1,
+          1,
+          1,
+<<<<<<< HEAD
+=======
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          0,
+          0,
+          null,
+>>>>>>> developer
+          null,
+          null,
+          1,
+          1,
+<<<<<<< HEAD
+          null,
+          1,
+=======
+          1,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          0,
+          null,
+          null,
+>>>>>>> developer
+          null,
+          1,
+          1,
+          1,
+<<<<<<< HEAD
+=======
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          1,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          0,
+          0,
+          null,
+>>>>>>> developer
+          null,
+          null
+        ]
+      },
+<<<<<<< HEAD
+      "/home/marviorocha/www/notepad/spec/helpers/main_helper_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/marviorocha/www/notepad/spec/models/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+=======
+      "/home/marviorocha/www/notepad/spec/routing/notes_routing_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/marviorocha/www/notepad/app/controllers/notes_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+>>>>>>> developer
+          null,
+          null,
+          null,
+          null,
+          null,
+<<<<<<< HEAD
+          null
+        ]
+      },
+      "/home/marviorocha/www/notepad/spec/requests/main_spec.rb": {
+=======
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/home/marviorocha/www/notepad/app/controllers/application_controller.rb": {
+>>>>>>> developer
+        "lines": [
+          null,
+          null,
+          1,
+<<<<<<< HEAD
+          null,
+          1,
+          1,
+=======
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          13,
+          13,
+          null,
+          null
+        ]
+      },
+      "/home/marviorocha/www/notepad/spec/views/notes/edit.html.erb_spec.rb": {
+        "lines": [
+          1,
+          null,
+>>>>>>> developer
+          1,
+          1,
+          1,
+          null,
+          null,
+<<<<<<< HEAD
           null
         ]
       },
@@ -872,6 +1328,113 @@
           1,
           15,
           15,
+=======
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/marviorocha/www/notepad/spec/views/notes/index.html.erb_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/home/marviorocha/www/notepad/spec/views/notes/new.html.erb_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/marviorocha/www/notepad/spec/views/notes/show.html.erb_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+>>>>>>> developer
           null,
           null
         ]
@@ -883,11 +1446,21 @@
           1,
           1,
           2,
+<<<<<<< HEAD
+=======
+          2,
+          null,
+          null,
+>>>>>>> developer
           null,
           null
         ]
       }
     },
+<<<<<<< HEAD
     "timestamp": 1636251422
+=======
+    "timestamp": 1636322829
+>>>>>>> developer
   }
 }

@@ -1,0 +1,7 @@
+<div class="container p-3">
+  <div class="d-flex justify-content-between align-items-center">
+    <h1>Editing Note</h1>
+    <%= link_to 'Back', root_path, class: 'btn btn-info float:right text-right btn-sm' %>
+  </div>
+  <%= render 'form', note: @note %>
+</div>
