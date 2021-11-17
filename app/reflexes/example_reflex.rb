@@ -32,4 +32,9 @@ class ExampleReflex < ApplicationReflex
   #
   # Learn more at: https://docs.stimulusreflex.com/reflexes#reflex-classes
 
+  def toggle
+    note = Note.find(element.dataset[:id])
+    alert(note)
+    note.update(date: (note.updated_at? ? nil : Time.current))
+  end
 end

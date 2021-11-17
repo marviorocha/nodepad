@@ -1,49 +1,57 @@
   <%= form_with(model: note) do |form| %>
-  <% if note.errors.any? %>
-    <div class="alert alert-danger">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-      <h2><%= pluralize(note.errors.count, "error") %> prohibited this note from being saved:</h2>
-      <%= alert %>
-      <hr>
-      <% note.errors.each do |error| %>
-        <li><%= error.full_message %></li>
-      <% end %>
-    </div>
-  </div>
-<% end %>
-<div class="d-flex justify-content-center">
-  <div class="card" style="width: 35rem">
-    <div class="card-body">
-      <div class="form-group">
-        <%= form.label :title %>
-        <%= form.text_field :title, class: 'form-control'%>
-      </div>
-      <div class="form-group">
-        <%= form.label :date %>
-        <%= form.text_field :date, data: {
+  <!-- Modal -->
+  <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Add new note</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <% if note.errors.any? %>
+            <div class="alert alert-danger">
+              <h2><%= pluralize(note.errors.count, "error") %> prohibited this note from being saved:</h2>
+              <%= alert %>
+              <hr>
+              <% note.errors.each do |error| %>
+                <li><%= error.full_message %></li>
+              <% end %>
+            <% end %>
+            <div class="form-group">
+              <%= form.label :title %>
+              <%= form.text_field :title, class: 'form-control'%>
+            </div>
+            <div class="form-group">
+              <%= form.label :date %>
+              <%= form.text_field :date, data: {
       controller: "flatpickr",
         
         flatpickr_alt_input: true,
         flatpickr_min_date: Time.zone.now,
      
     }, class: 'form-control'%>
-      </div>
-      <div class="form-group">
-        <%= form.label :body %>
-        <%= form.text_area :body, class: 'form-control'%>
-      </div>
-      <div class="form-group">
-        <%= form.label :priority %>
-        <%= form.select :priority, [["Low", "low"], ["Medium", "medium"], ["Hight", "hight"]], {}, class: 'custom-select custom-select-md mb-1' %>
-      </div>
-      <div class="actions">
-        <%= button_tag(type: 'submit', class: "btn btn-primary") do %>
-          <i class="fas fa-plus"></i> Save Note
+            </div>
+            <div class="form-group">
+              <%= form.label :body %>
+              <%= form.text_area :body, class: 'form-control'%>
+            </div>
+            <div class="form-group">
+              <%= form.label :priority %>
+              <%= form.select :priority, :priority => Note.priority.to_a, class: 'custom-select' %>
+              <%#= form.select :priority, collection: Note.priority, {}, class: 'custom-select custom-select-md mb-1' %>
+            </div>
+            <div class="actions">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <%= button_tag(type: 'submit', class: "btn btn-primary") do %>
+              <i class="fas fa-plus"></i> Save Note
+            <% end %>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
         <% end %>
       </div>
-    <% end %>
+    </div>
   </div>
-</div>
-</div>
