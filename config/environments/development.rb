@@ -1,6 +1,8 @@
 require 'active_support/core_ext/integer/time'
 
 Rails.application.configure do
+  config.session_store :cache_store
+
   # Set letter_opener for developement
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   config.action_mailer.delivery_method = :letter_opener

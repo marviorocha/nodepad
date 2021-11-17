@@ -15,7 +15,7 @@ class NotesController < ApplicationController
       if @note.save
         format.html { redirect_to root_path, notice: 'Note was successfully created.' }
       else
-        format.html { render :new, alert: @note.errors.full_messages }
+        format.html { redirect_to root_path, alert: @note.errors.full_messages }
       end
     end
   end

@@ -39,3 +39,5 @@ gem "sendgrid-ruby", "~> 6.6"
 gem "redis", "~> 4.5"
 
 gem "faker", "~> 2.19"
+
+gem "stimulus_reflex", "~> 3.4"

@@ -23,3 +23,5 @@ application.register('flatpickr', Flatpickr)
 Rails.start()
 ActiveStorage.start()
 
+
+import "controllers"
